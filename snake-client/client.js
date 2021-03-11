@@ -21,7 +21,7 @@
 
   conn.on('connect', () => {
     conn.write('Name: TB');
-    conn.write('Move: up');
+    // conn.write('Move: up');    
   });
 
   
